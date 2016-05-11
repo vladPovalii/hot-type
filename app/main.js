@@ -1,5 +1,7 @@
+require("bootstrap-webpack");
 
-function validateForm() {
-	debugger;
-	return "ok";
-}
+/*
+(function(){
+	console.log("yeah!");
+})();
+*/
