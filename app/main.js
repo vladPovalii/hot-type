@@ -1,5 +1,1 @@
-
-function validateForm() {
-	debugger;
-	return "ok";
-}
+require('bootstrap-webpack!./bootstrap.config.js');
