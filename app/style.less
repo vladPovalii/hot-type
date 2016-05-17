@@ -1,11 +1,8 @@
-/* own styles */
+/* TYPE-ITEMS */
+
 #type {
 	margin-top: 15px;
 }
-
-//===================================================================
-//  TYPE-ITEMS
-//===================================================================
 
 .type-list {
   border-top: 1px dotted #666;
@@ -19,12 +16,9 @@
   height: 50px;
   overflow: hidden;
   color: #333;
-  font-size: rem(18px);
   font-weight: 300;
-
-  @include media-query(540) {
-    font-size: rem(24px);
-  }
+  font-size: 1.8em;
+  font-weight: 300;
 }
 
 @keyframes fade-title {
@@ -37,16 +31,16 @@
   to { width: 100%; }
 }
 
-.type-item__title {
+.type-item-title {
   display: inline-block;
   position: relative;
   max-width: 100%;
-  line-height: 60px;
+  line-height: 50px;
   outline: none;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-
+  
   &:after {
     position: absolute;
     left: 0;
@@ -74,9 +68,7 @@
   }
 }
 
-//===================================================================
-//  GRID
-//===================================================================
+/* GRID */
 
 .main {
 	display: block;
