@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/vladPovalii/hotType.svg?branch=master)](https://travis-ci.org/vladPovalii/hotType)
+
+
 # hotType
 simple app for learning how to work with forms, validation, DOM elements, and other stuff
 
