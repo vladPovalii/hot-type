@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "scripts": {
+    "build": "webpack --display-chunks --display-modules --progress",
     "dev": "webpack-dev-server --progress"
   },
   "dependencies": {
