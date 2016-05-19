@@ -13,12 +13,4 @@ module.exports = {
             { test: /\.svg$/, loader: "file-loader" }     
        ]
     }
-    /*,
-    plugins: [
-        new webpack.ProvidePlugin({
-           $: "jquery",
-           jQuery: "jquery"
-       })
-    ]
-    */
 };

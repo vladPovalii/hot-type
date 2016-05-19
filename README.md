@@ -7,7 +7,7 @@ simple app for learning how to work with forms, validation, DOM elements, and ot
 # quick start with webpack-dev-server:
 ```shell
 $ git clone https://github.com/vladPovalii/hotType.git
-$ cd hotType/app
+$ cd hotType
 $ npm install
 $ webpack-dev-server
 ```
