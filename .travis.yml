@@ -6,4 +6,4 @@ install:
   - npm install
 
 script:
-  - webpack-dev-server
+  - npm run dev
