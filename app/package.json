@@ -1,5 +1,5 @@
 {
-  "name": "hotTypeNative",
+  "name": "hotType",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
@@ -8,6 +8,9 @@
   },
   "author": "",
   "license": "ISC",
+  "scripts": {
+    "dev": "webpack-dev-server --progress"
+  },
   "dependencies": {
     "bootstrap": "^3.3.6",
     "bootstrap-webpack": "0.0.5",
