@@ -1,6 +1,8 @@
 require('expose?$!expose?jQuery!jquery');
 require('bootstrap-webpack!./bootstrap.config.js');
 
+var FIRST_TYPE = true;
+
 function init(){
 	var type_form = document.querySelector("#type_form");
 	var target_form = document.querySelector("#target_form");
@@ -31,7 +33,11 @@ function createTypeItem(type_form, type_str) {
 
 	type_item_title_div.appendChild(type_title);
 	type_item_div.appendChild(type_item_title_div);
-	list.appendChild(type_item_div);
+	if(FIRST_TYPE){
+		list.insertBefore(type_item_div, list.childNodes[0]);
+	}else{
+		list.appendChild(type_item_div);	
+	}
 	type_form.elements.type_input.value = "";
 	event.preventDefault();
 }
