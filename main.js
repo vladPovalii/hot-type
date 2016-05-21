@@ -38,6 +38,7 @@ function createTypeItem(type_form, type_str) {
 	}else{
 		list.appendChild(type_item_div);	
 	}
+	
 	type_form.elements.type_input.value = "";
 	event.preventDefault();
 }
