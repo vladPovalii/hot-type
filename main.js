@@ -38,7 +38,9 @@ function createTypeItem(type_form, type_str) {
 	}else{
 		list.appendChild(type_item_div);	
 	}
-	
+	if(list.childNodes.length > 8){
+		list.removeChild(list.childNodes[8]); 
+	}
 	type_form.elements.type_input.value = "";
 	event.preventDefault();
 }
